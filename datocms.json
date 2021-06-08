@@ -5,7 +5,7 @@
   "datocmsProjectId": "604",
   "deploymentType": "static",
   "buildCommand": "npm run build",
-  "datocmsApiTokenEnvName": "DATO_API_TOKEN",
+  "datocmsApiTokenEnvName": "DATO_API_TOKEN=abc123",
   "buildDirectory": "public",
   "livePreviewUrl": "https://adoring-carson-24f43a.netlify.com/"
 }
