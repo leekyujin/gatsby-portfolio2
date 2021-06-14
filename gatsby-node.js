@@ -29,3 +29,13 @@ exports.createPages = ({ graphql, actions }) => {
     })
   })
 }
+exports.sourceNodes = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type AuthorJson implements Node {
+      name: String
+      birthday: Date
+    }
+  `
+  createTypes(typeDefs)
+}
