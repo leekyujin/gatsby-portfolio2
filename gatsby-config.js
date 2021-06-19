@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-source-datocms`,
       options: {
-       apiToken: process.env.DATOCMS_READONLY_TOKEN=abc123,
+       apiToken: process.env.DATOCMS_READONLY_TOKEN=8d0105fb7a96106b70f3ad94e36d1a,
         // Preview the latest version of records instead of the published one
         previewMode: false,
         // Disable automatic reloading of content when some change occurs on DatoCMS:
